@@ -1,13 +1,3 @@
----
-title: Gulf Property Intelligence
-emoji: 🏙️
-colorFrom: blue
-colorTo: yellow
-sdk: docker
-app_port: 7860
-pinned: false
----
-
 # Gulf Property Intelligence
 
 Source-grounded English/Arabic assistant over public DarGlobal and Wasalt pages. Explanatory questions use hybrid BM25 and multilingual E5 vector retrieval with OpenRouter generation; Wasalt listing ID, location, price, and bedroom questions use structured records and deterministic filters. Responses link back to captured pages and show capture dates. The snapshot does not provide live listing availability.
