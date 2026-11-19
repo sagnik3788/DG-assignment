@@ -1,0 +1,828 @@
+[
+  {
+    "query": "What is DarGlobal's AIDA development in Oman?",
+    "type": "rag",
+    "language": "en",
+    "expected_urls": [
+      "https://darglobal.co.uk/landing-page/aida"
+    ],
+    "should_abstain": false
+  },
+  {
+    "query": "أين يقع مشروع آيدا وما طبيعته؟",
+    "type": "rag",
+    "language": "ar",
+    "expected_urls": [
+      "https://darglobal.co.uk/ar/landing-page/aida"
+    ],
+    "should_abstain": false
+  },
+  {
+    "query": "What is The Astera and who designed its interiors?",
+    "type": "rag",
+    "language": "en",
+    "expected_urls": [
+      "https://darglobal.co.uk/the-astera"
+    ],
+    "should_abstain": false
+  },
+  {
+    "query": "اشرح مشروع ذا أستيرا في رأس الخيمة",
+    "type": "rag",
+    "language": "ar",
+    "expected_urls": [
+      "https://darglobal.co.uk/ar/the-astera"
+    ],
+    "should_abstain": false
+  },
+  {
+    "query": "Where is DG1 located and what kind of development is it?",
+    "type": "rag",
+    "language": "en",
+    "expected_urls": [
+      "https://darglobal.co.uk/dg1"
+    ],
+    "should_abstain": false
+  },
+  {
+    "query": "ما هو مشروع DG1 وأين يقع؟",
+    "type": "rag",
+    "language": "ar",
+    "expected_urls": [
+      "https://darglobal.co.uk/ar/dg1"
+    ],
+    "should_abstain": false
+  },
+  {
+    "query": "Tell me about Tierra Viva and its design inspiration",
+    "type": "rag",
+    "language": "en",
+    "expected_urls": [
+      "https://darglobal.co.uk/tierra-viva"
+    ],
+    "should_abstain": false
+  },
+  {
+    "query": "صف مشروع تييرا فيفا",
+    "type": "rag",
+    "language": "ar",
+    "expected_urls": [
+      "https://darglobal.co.uk/ar/tierra-viva"
+    ],
+    "should_abstain": false
+  },
+  {
+    "query": "What is Azure Oceanfront Villas and its connection to Fendi Casa?",
+    "type": "rag",
+    "language": "en",
+    "expected_urls": [
+      "https://darglobal.co.uk/one-of-one/fendi-casa-azure-oceanfront-villas"
+    ],
+    "should_abstain": false
+  },
+  {
+    "query": "What services does Wasalt provide?",
+    "type": "rag",
+    "language": "en",
+    "expected_urls": [
+      "https://wasalt.sa/en"
+    ],
+    "should_abstain": false
+  },
+  {
+    "query": "ما الخدمات التي تقدمها منصة وصلت؟",
+    "type": "rag",
+    "language": "ar",
+    "expected_urls": [
+      "https://wasalt.sa"
+    ],
+    "should_abstain": false
+  },
+  {
+    "query": "What does Wasalt Business offer?",
+    "type": "rag",
+    "language": "en",
+    "expected_urls": [
+      "https://wasalt.sa/en/s/wasalt-business"
+    ],
+    "should_abstain": false
+  },
+  {
+    "query": "What can I find on Wasalt's Riyadh homes for rent page?",
+    "type": "rag",
+    "language": "en",
+    "expected_urls": [
+      "https://wasalt.sa/en/properties-for-rent-in-riyadh"
+    ],
+    "should_abstain": false
+  },
+  {
+    "query": "ما نوع العقارات المعروضة للبيع في حي السر بالطائف؟",
+    "type": "rag",
+    "language": "ar",
+    "expected_urls": [
+      "https://wasalt.sa/عقارات-للبيع-الطائف-حى-السر"
+    ],
+    "should_abstain": false
+  },
+  {
+    "query": "Where is DarGlobal's Trump International Hotel & Tower Dubai?",
+    "type": "rag",
+    "language": "en",
+    "expected_urls": [
+      "https://darglobal.co.uk/trump-international-hotel-and-tower-dubai"
+    ],
+    "should_abstain": false
+  },
+  {
+    "query": "ما الذي يميز مشروع برج ترامب الدولي في قطر؟",
+    "type": "rag",
+    "language": "ar",
+    "expected_urls": [
+      "https://darglobal.co.uk/lp/trump-international-qatar"
+    ],
+    "should_abstain": false
+  },
+  {
+    "query": "What does DarGlobal say about its company and business?",
+    "type": "rag",
+    "language": "en",
+    "expected_urls": [
+      "https://darglobal.co.uk/about"
+    ],
+    "should_abstain": false
+  },
+  {
+    "query": "What topics does DarGlobal's FAQ cover?",
+    "type": "rag",
+    "language": "en",
+    "expected_urls": [
+      "https://darglobal.co.uk/faq"
+    ],
+    "should_abstain": false
+  },
+  {
+    "query": "What is the Fairway Villas project in AIDA?",
+    "type": "rag",
+    "language": "en",
+    "expected_urls": [
+      "https://darglobal.co.uk/fairway-villas-aida-oman"
+    ],
+    "should_abstain": false
+  },
+  {
+    "query": "ما هو مشروع مريا من ميسوني في إسبانيا؟",
+    "type": "rag",
+    "language": "ar",
+    "expected_urls": [
+      "https://darglobal.co.uk/marea"
+    ],
+    "should_abstain": false
+  },
+  {
+    "query": "Give me the Wasalt listing details for ID 5879365",
+    "type": "listing",
+    "language": "en",
+    "expected_listing_ids": [
+      "5879365"
+    ],
+    "expected_urls": [
+      "https://wasalt.sa/en/property/sale/apartment-675-sqm-with-3-bedrooms-5879365",
+      "https://wasalt.sa/property/sale/شقة-675-متر-مربع-ب-3-غرف-5879365"
+    ],
+    "should_abstain": false
+  },
+  {
+    "query": "ما تفاصيل العقار رقم 5879365 في وصلت؟",
+    "type": "listing",
+    "language": "ar",
+    "expected_listing_ids": [
+      "5879365"
+    ],
+    "expected_urls": [
+      "https://wasalt.sa/en/property/sale/apartment-675-sqm-with-3-bedrooms-5879365",
+      "https://wasalt.sa/property/sale/شقة-675-متر-مربع-ب-3-غرف-5879365"
+    ],
+    "should_abstain": false
+  },
+  {
+    "query": "Give me the Wasalt listing details for ID 5879284",
+    "type": "listing",
+    "language": "en",
+    "expected_listing_ids": [
+      "5879284"
+    ],
+    "expected_urls": [
+      "https://wasalt.sa/en/property/sale/apartment-58587-sqm-with-3-bedrooms-5879284",
+      "https://wasalt.sa/property/sale/شقة-58587-متر-مربع-ب-3-غرف-5879284"
+    ],
+    "should_abstain": false
+  },
+  {
+    "query": "ما تفاصيل العقار رقم 5879284 في وصلت؟",
+    "type": "listing",
+    "language": "ar",
+    "expected_listing_ids": [
+      "5879284"
+    ],
+    "expected_urls": [
+      "https://wasalt.sa/en/property/sale/apartment-58587-sqm-with-3-bedrooms-5879284",
+      "https://wasalt.sa/property/sale/شقة-58587-متر-مربع-ب-3-غرف-5879284"
+    ],
+    "should_abstain": false
+  },
+  {
+    "query": "Give me the Wasalt listing details for ID 5879277",
+    "type": "listing",
+    "language": "en",
+    "expected_listing_ids": [
+      "5879277"
+    ],
+    "expected_urls": [
+      "https://wasalt.sa/en/property/sale/apartment-600-sqm-with-3-bedrooms-5879277",
+      "https://wasalt.sa/property/sale/شقة-600-متر-مربع-ب-3-غرف-5879277"
+    ],
+    "should_abstain": false
+  },
+  {
+    "query": "ما تفاصيل العقار رقم 5879277 في وصلت؟",
+    "type": "listing",
+    "language": "ar",
+    "expected_listing_ids": [
+      "5879277"
+    ],
+    "expected_urls": [
+      "https://wasalt.sa/en/property/sale/apartment-600-sqm-with-3-bedrooms-5879277",
+      "https://wasalt.sa/property/sale/شقة-600-متر-مربع-ب-3-غرف-5879277"
+    ],
+    "should_abstain": false
+  },
+  {
+    "query": "Give me the Wasalt listing details for ID 5879352",
+    "type": "listing",
+    "language": "en",
+    "expected_listing_ids": [
+      "5879352"
+    ],
+    "expected_urls": [
+      "https://wasalt.sa/en/property/sale/apartment-12244-sqm-with-3-bedrooms-5879352",
+      "https://wasalt.sa/property/sale/شقة-12244-متر-مربع-ب-3-غرف-5879352"
+    ],
+    "should_abstain": false
+  },
+  {
+    "query": "ما تفاصيل العقار رقم 5879352 في وصلت؟",
+    "type": "listing",
+    "language": "ar",
+    "expected_listing_ids": [
+      "5879352"
+    ],
+    "expected_urls": [
+      "https://wasalt.sa/en/property/sale/apartment-12244-sqm-with-3-bedrooms-5879352",
+      "https://wasalt.sa/property/sale/شقة-12244-متر-مربع-ب-3-غرف-5879352"
+    ],
+    "should_abstain": false
+  },
+  {
+    "query": "Give me the Wasalt listing details for ID 5879349",
+    "type": "listing",
+    "language": "en",
+    "expected_listing_ids": [
+      "5879349"
+    ],
+    "expected_urls": [
+      "https://wasalt.sa/en/property/rent/apartment-1695-sqm-with-3-bedrooms-5879349",
+      "https://wasalt.sa/property/rent/شقة-1695-متر-مربع-ب-3-غرف-5879349"
+    ],
+    "should_abstain": false
+  },
+  {
+    "query": "ما تفاصيل العقار رقم 5879349 في وصلت؟",
+    "type": "listing",
+    "language": "ar",
+    "expected_listing_ids": [
+      "5879349"
+    ],
+    "expected_urls": [
+      "https://wasalt.sa/en/property/rent/apartment-1695-sqm-with-3-bedrooms-5879349",
+      "https://wasalt.sa/property/rent/شقة-1695-متر-مربع-ب-3-غرف-5879349"
+    ],
+    "should_abstain": false
+  },
+  {
+    "query": "Give me the Wasalt listing details for ID 5879363",
+    "type": "listing",
+    "language": "en",
+    "expected_listing_ids": [
+      "5879363"
+    ],
+    "expected_urls": [
+      "https://wasalt.sa/en/property/rent/apartment-60-sqm-with-1-bedroom-5879363",
+      "https://wasalt.sa/property/rent/شقة-60-متر-مربع-بغرفة-5879363"
+    ],
+    "should_abstain": false
+  },
+  {
+    "query": "ما تفاصيل العقار رقم 5879363 في وصلت؟",
+    "type": "listing",
+    "language": "ar",
+    "expected_listing_ids": [
+      "5879363"
+    ],
+    "expected_urls": [
+      "https://wasalt.sa/en/property/rent/apartment-60-sqm-with-1-bedroom-5879363",
+      "https://wasalt.sa/property/rent/شقة-60-متر-مربع-بغرفة-5879363"
+    ],
+    "should_abstain": false
+  },
+  {
+    "query": "Give me the Wasalt listing details for ID 5879393",
+    "type": "listing",
+    "language": "en",
+    "expected_listing_ids": [
+      "5879393"
+    ],
+    "expected_urls": [
+      "https://wasalt.sa/en/property/rent/apartment-15699-sqm-with-4-bedrooms-5879393",
+      "https://wasalt.sa/property/rent/شقة-15699-متر-مربع-ب-4-غرف-5879393"
+    ],
+    "should_abstain": false
+  },
+  {
+    "query": "ما تفاصيل العقار رقم 5879393 في وصلت؟",
+    "type": "listing",
+    "language": "ar",
+    "expected_listing_ids": [
+      "5879393"
+    ],
+    "expected_urls": [
+      "https://wasalt.sa/en/property/rent/apartment-15699-sqm-with-4-bedrooms-5879393",
+      "https://wasalt.sa/property/rent/شقة-15699-متر-مربع-ب-4-غرف-5879393"
+    ],
+    "should_abstain": false
+  },
+  {
+    "query": "Give me the Wasalt listing details for ID 5910750",
+    "type": "listing",
+    "language": "en",
+    "expected_listing_ids": [
+      "5910750"
+    ],
+    "expected_urls": [
+      "https://wasalt.sa/en/property/sale/villa-23626-sqm-facing-north-east-on-20m-width-street-5910750"
+    ],
+    "should_abstain": false
+  },
+  {
+    "query": "ما تفاصيل العقار رقم 5910750 في وصلت؟",
+    "type": "listing",
+    "language": "ar",
+    "expected_listing_ids": [
+      "5910750"
+    ],
+    "expected_urls": [
+      "https://wasalt.sa/en/property/sale/villa-23626-sqm-facing-north-east-on-20m-width-street-5910750"
+    ],
+    "should_abstain": false
+  },
+  {
+    "query": "Give me the Wasalt listing details for ID 5580",
+    "type": "listing",
+    "language": "en",
+    "expected_listing_ids": [
+      "5580"
+    ],
+    "expected_urls": [
+      "https://wasalt.sa/en/dailyrental/chalet-for-booking-5580",
+      "https://wasalt.sa/dailyrental/شاليه-للحجز-5580"
+    ],
+    "should_abstain": false
+  },
+  {
+    "query": "ما تفاصيل العقار رقم 5580 في وصلت؟",
+    "type": "listing",
+    "language": "ar",
+    "expected_listing_ids": [
+      "5580"
+    ],
+    "expected_urls": [
+      "https://wasalt.sa/en/dailyrental/chalet-for-booking-5580",
+      "https://wasalt.sa/dailyrental/شاليه-للحجز-5580"
+    ],
+    "should_abstain": false
+  },
+  {
+    "query": "Give me the Wasalt listing details for ID 5421",
+    "type": "listing",
+    "language": "en",
+    "expected_listing_ids": [
+      "5421"
+    ],
+    "expected_urls": [
+      "https://wasalt.sa/en/dailyrental/apartment-for-booking-5421",
+      "https://wasalt.sa/dailyrental/شقة-للحجز-5421"
+    ],
+    "should_abstain": false
+  },
+  {
+    "query": "ما تفاصيل العقار رقم 5421 في وصلت؟",
+    "type": "listing",
+    "language": "ar",
+    "expected_listing_ids": [
+      "5421"
+    ],
+    "expected_urls": [
+      "https://wasalt.sa/en/dailyrental/apartment-for-booking-5421",
+      "https://wasalt.sa/dailyrental/شقة-للحجز-5421"
+    ],
+    "should_abstain": false
+  },
+  {
+    "query": "Jeddah apartments for sale with 3 bedrooms under SAR 400k",
+    "type": "listing",
+    "language": "en",
+    "expected_listing_ids": [
+      "5879277",
+      "5879278",
+      "5879284",
+      "5879286",
+      "5879294"
+    ],
+    "expected_urls": [
+      "https://wasalt.sa/en/property/sale/apartment-600-sqm-with-3-bedrooms-5879277",
+      "https://wasalt.sa/property/sale/شقة-600-متر-مربع-ب-3-غرف-5879277",
+      "https://wasalt.sa/en/property/sale/apartment-600-sqm-with-3-bedrooms-5879278",
+      "https://wasalt.sa/property/sale/شقة-600-متر-مربع-ب-3-غرف-5879278",
+      "https://wasalt.sa/en/property/sale/apartment-58587-sqm-with-3-bedrooms-5879284",
+      "https://wasalt.sa/property/sale/شقة-58587-متر-مربع-ب-3-غرف-5879284",
+      "https://wasalt.sa/en/property/sale/apartment-6955-sqm-with-3-bedrooms-5879286",
+      "https://wasalt.sa/property/sale/شقة-6955-متر-مربع-ب-3-غرف-5879286",
+      "https://wasalt.sa/en/property/sale/apartment-54387-sqm-with-3-bedrooms-5879294",
+      "https://wasalt.sa/property/sale/شقة-54387-متر-مربع-ب-3-غرف-5879294"
+    ],
+    "should_abstain": false
+  },
+  {
+    "query": "شقق للبيع في جدة بثلاث غرف نوم بأقل من 400 ألف ريال",
+    "type": "listing",
+    "language": "ar",
+    "expected_listing_ids": [
+      "5879277",
+      "5879278",
+      "5879284",
+      "5879286",
+      "5879294"
+    ],
+    "expected_urls": [
+      "https://wasalt.sa/en/property/sale/apartment-600-sqm-with-3-bedrooms-5879277",
+      "https://wasalt.sa/property/sale/شقة-600-متر-مربع-ب-3-غرف-5879277",
+      "https://wasalt.sa/en/property/sale/apartment-600-sqm-with-3-bedrooms-5879278",
+      "https://wasalt.sa/property/sale/شقة-600-متر-مربع-ب-3-غرف-5879278",
+      "https://wasalt.sa/en/property/sale/apartment-58587-sqm-with-3-bedrooms-5879284",
+      "https://wasalt.sa/property/sale/شقة-58587-متر-مربع-ب-3-غرف-5879284",
+      "https://wasalt.sa/en/property/sale/apartment-6955-sqm-with-3-bedrooms-5879286",
+      "https://wasalt.sa/property/sale/شقة-6955-متر-مربع-ب-3-غرف-5879286",
+      "https://wasalt.sa/en/property/sale/apartment-54387-sqm-with-3-bedrooms-5879294",
+      "https://wasalt.sa/property/sale/شقة-54387-متر-مربع-ب-3-غرف-5879294"
+    ],
+    "should_abstain": false
+  },
+  {
+    "query": "Find 3-bedroom apartments for sale in Jeddah",
+    "type": "listing",
+    "language": "en",
+    "expected_listing_ids": [
+      "5879277",
+      "5879278",
+      "5879284",
+      "5879286",
+      "5879294"
+    ],
+    "expected_urls": [
+      "https://wasalt.sa/en/property/sale/apartment-600-sqm-with-3-bedrooms-5879277",
+      "https://wasalt.sa/property/sale/شقة-600-متر-مربع-ب-3-غرف-5879277",
+      "https://wasalt.sa/en/property/sale/apartment-600-sqm-with-3-bedrooms-5879278",
+      "https://wasalt.sa/property/sale/شقة-600-متر-مربع-ب-3-غرف-5879278",
+      "https://wasalt.sa/en/property/sale/apartment-58587-sqm-with-3-bedrooms-5879284",
+      "https://wasalt.sa/property/sale/شقة-58587-متر-مربع-ب-3-غرف-5879284",
+      "https://wasalt.sa/en/property/sale/apartment-6955-sqm-with-3-bedrooms-5879286",
+      "https://wasalt.sa/property/sale/شقة-6955-متر-مربع-ب-3-غرف-5879286",
+      "https://wasalt.sa/en/property/sale/apartment-54387-sqm-with-3-bedrooms-5879294",
+      "https://wasalt.sa/property/sale/شقة-54387-متر-مربع-ب-3-غرف-5879294"
+    ],
+    "should_abstain": false
+  },
+  {
+    "query": "ابحث عن شقة للبيع في جدة بثلاث غرف",
+    "type": "listing",
+    "language": "ar",
+    "expected_listing_ids": [
+      "5879277",
+      "5879278",
+      "5879284",
+      "5879286",
+      "5879294"
+    ],
+    "expected_urls": [
+      "https://wasalt.sa/en/property/sale/apartment-600-sqm-with-3-bedrooms-5879277",
+      "https://wasalt.sa/property/sale/شقة-600-متر-مربع-ب-3-غرف-5879277",
+      "https://wasalt.sa/en/property/sale/apartment-600-sqm-with-3-bedrooms-5879278",
+      "https://wasalt.sa/property/sale/شقة-600-متر-مربع-ب-3-غرف-5879278",
+      "https://wasalt.sa/en/property/sale/apartment-58587-sqm-with-3-bedrooms-5879284",
+      "https://wasalt.sa/property/sale/شقة-58587-متر-مربع-ب-3-غرف-5879284",
+      "https://wasalt.sa/en/property/sale/apartment-6955-sqm-with-3-bedrooms-5879286",
+      "https://wasalt.sa/property/sale/شقة-6955-متر-مربع-ب-3-غرف-5879286",
+      "https://wasalt.sa/en/property/sale/apartment-54387-sqm-with-3-bedrooms-5879294",
+      "https://wasalt.sa/property/sale/شقة-54387-متر-مربع-ب-3-غرف-5879294"
+    ],
+    "should_abstain": false
+  },
+  {
+    "query": "Apartments for rent in Riyadh with 1 bedroom",
+    "type": "listing",
+    "language": "en",
+    "expected_listing_ids": [
+      "5879363",
+      "5879394",
+      "5879398"
+    ],
+    "expected_urls": [
+      "https://wasalt.sa/en/property/rent/apartment-60-sqm-with-1-bedroom-5879363",
+      "https://wasalt.sa/property/rent/شقة-60-متر-مربع-بغرفة-5879363",
+      "https://wasalt.sa/en/property/rent/apartment-60-sqm-with-1-bedroom-5879394",
+      "https://wasalt.sa/property/rent/شقة-60-متر-مربع-بغرفة-5879394",
+      "https://wasalt.sa/en/property/rent/apartment-40-sqm-with-1-bedroom-5879398",
+      "https://wasalt.sa/property/rent/شقة-40-متر-مربع-بغرفة-5879398"
+    ],
+    "should_abstain": false
+  },
+  {
+    "query": "شقق للإيجار في الرياض بغرفة نوم واحدة",
+    "type": "listing",
+    "language": "ar",
+    "expected_listing_ids": [
+      "5879363",
+      "5879394",
+      "5879398"
+    ],
+    "expected_urls": [
+      "https://wasalt.sa/en/property/rent/apartment-60-sqm-with-1-bedroom-5879363",
+      "https://wasalt.sa/property/rent/شقة-60-متر-مربع-بغرفة-5879363",
+      "https://wasalt.sa/en/property/rent/apartment-60-sqm-with-1-bedroom-5879394",
+      "https://wasalt.sa/property/rent/شقة-60-متر-مربع-بغرفة-5879394",
+      "https://wasalt.sa/en/property/rent/apartment-40-sqm-with-1-bedroom-5879398",
+      "https://wasalt.sa/property/rent/شقة-40-متر-مربع-بغرفة-5879398"
+    ],
+    "should_abstain": false
+  },
+  {
+    "query": "Show villas for sale in Riyadh",
+    "type": "listing",
+    "language": "en",
+    "expected_listing_ids": [
+      "5910750",
+      "5914584",
+      "5935066",
+      "5956676",
+      "5960413"
+    ],
+    "expected_urls": [
+      "https://wasalt.sa/en/property/sale/villa-23626-sqm-facing-north-east-on-20m-width-street-5910750",
+      "https://wasalt.sa/property/sale/%D9%81%D9%8A%D9%84%D8%A7-24807-%D9%85%D8%AA%D8%B1-%D9%85%D8%B1%D8%A8%D8%B9-%D8%B4%D8%B1%D9%82%D9%8A%D8%A9-%D8%B9%D9%84%D9%89-%D8%B4%D8%A7%D8%B1%D8%B9-15%D9%85-5914584",
+      "https://wasalt.sa/en/property/sale/villa-250-sqm-facing-west-on-15m-width-street-5935066",
+      "https://wasalt.sa/en/property/sale/villa-700-sqm-facing-south-on-15m-width-street-5956676",
+      "https://wasalt.sa/en/property/sale/villa-36034-sqm-facing-east-on-15m-width-street-5960413"
+    ],
+    "should_abstain": false
+  },
+  {
+    "query": "أظهر الفلل المعروضة للبيع في الرياض",
+    "type": "listing",
+    "language": "ar",
+    "expected_listing_ids": [
+      "5910750",
+      "5914584",
+      "5935066",
+      "5956676",
+      "5960413"
+    ],
+    "expected_urls": [
+      "https://wasalt.sa/en/property/sale/villa-23626-sqm-facing-north-east-on-20m-width-street-5910750",
+      "https://wasalt.sa/property/sale/%D9%81%D9%8A%D9%84%D8%A7-24807-%D9%85%D8%AA%D8%B1-%D9%85%D8%B1%D8%A8%D8%B9-%D8%B4%D8%B1%D9%82%D9%8A%D8%A9-%D8%B9%D9%84%D9%89-%D8%B4%D8%A7%D8%B1%D8%B9-15%D9%85-5914584",
+      "https://wasalt.sa/en/property/sale/villa-250-sqm-facing-west-on-15m-width-street-5935066",
+      "https://wasalt.sa/en/property/sale/villa-700-sqm-facing-south-on-15m-width-street-5956676",
+      "https://wasalt.sa/en/property/sale/villa-36034-sqm-facing-east-on-15m-width-street-5960413"
+    ],
+    "should_abstain": false
+  },
+  {
+    "query": "Find apartments for sale in Al Rabbwah, Jeddah",
+    "type": "listing",
+    "language": "en",
+    "expected_listing_ids": [
+      "5879276",
+      "5879277",
+      "5879278",
+      "5879280",
+      "5879284"
+    ],
+    "expected_urls": [
+      "https://wasalt.sa/en/property/sale/apartment-440-sqm-with-2-bedrooms-5879276",
+      "https://wasalt.sa/property/sale/شقة-440-متر-مربع-بغرفتين-5879276",
+      "https://wasalt.sa/en/property/sale/apartment-600-sqm-with-3-bedrooms-5879277",
+      "https://wasalt.sa/property/sale/شقة-600-متر-مربع-ب-3-غرف-5879277",
+      "https://wasalt.sa/en/property/sale/apartment-600-sqm-with-3-bedrooms-5879278",
+      "https://wasalt.sa/property/sale/شقة-600-متر-مربع-ب-3-غرف-5879278",
+      "https://wasalt.sa/en/property/sale/apartment-3150-sqm-with-4-bedrooms-5879280",
+      "https://wasalt.sa/property/sale/شقة-3150-متر-مربع-ب-4-غرف-5879280",
+      "https://wasalt.sa/en/property/sale/apartment-58587-sqm-with-3-bedrooms-5879284",
+      "https://wasalt.sa/property/sale/شقة-58587-متر-مربع-ب-3-غرف-5879284"
+    ],
+    "should_abstain": false
+  },
+  {
+    "query": "شقق للبيع في حي الربوة بجدة",
+    "type": "listing",
+    "language": "ar",
+    "expected_listing_ids": [
+      "5879276",
+      "5879277",
+      "5879278",
+      "5879280",
+      "5879284"
+    ],
+    "expected_urls": [
+      "https://wasalt.sa/en/property/sale/apartment-440-sqm-with-2-bedrooms-5879276",
+      "https://wasalt.sa/property/sale/شقة-440-متر-مربع-بغرفتين-5879276",
+      "https://wasalt.sa/en/property/sale/apartment-600-sqm-with-3-bedrooms-5879277",
+      "https://wasalt.sa/property/sale/شقة-600-متر-مربع-ب-3-غرف-5879277",
+      "https://wasalt.sa/en/property/sale/apartment-600-sqm-with-3-bedrooms-5879278",
+      "https://wasalt.sa/property/sale/شقة-600-متر-مربع-ب-3-غرف-5879278",
+      "https://wasalt.sa/en/property/sale/apartment-3150-sqm-with-4-bedrooms-5879280",
+      "https://wasalt.sa/property/sale/شقة-3150-متر-مربع-ب-4-غرف-5879280",
+      "https://wasalt.sa/en/property/sale/apartment-58587-sqm-with-3-bedrooms-5879284",
+      "https://wasalt.sa/property/sale/شقة-58587-متر-مربع-ب-3-غرف-5879284"
+    ],
+    "should_abstain": false
+  },
+  {
+    "query": "Is the Sun Palace hotel open tonight in Muscat?",
+    "type": "rag",
+    "language": "en",
+    "expected_listing_ids": [],
+    "expected_urls": [],
+    "should_abstain": true
+  },
+  {
+    "query": "What is the current mortgage rate offered by Wasalt?",
+    "type": "rag",
+    "language": "en",
+    "expected_listing_ids": [],
+    "expected_urls": [],
+    "should_abstain": true
+  },
+  {
+    "query": "هل تم بيع العقار 9999999؟",
+    "type": "listing",
+    "language": "ar",
+    "expected_listing_ids": [],
+    "expected_urls": [],
+    "should_abstain": true
+  },
+  {
+    "query": "What is the live availability today for AIDA villas?",
+    "type": "rag",
+    "language": "en",
+    "expected_listing_ids": [],
+    "expected_urls": [],
+    "should_abstain": true
+  },
+  {
+    "query": "ما هو السعر المباشر الحالي لبرج في لندن؟",
+    "type": "rag",
+    "language": "ar",
+    "expected_listing_ids": [],
+    "expected_urls": [],
+    "should_abstain": true
+  },
+  {
+    "query": "Give me exact owner contact details for listing 9999999",
+    "type": "listing",
+    "language": "en",
+    "expected_listing_ids": [],
+    "expected_urls": [],
+    "should_abstain": true
+  },
+  {
+    "query": "Will property prices in Riyadh rise next year?",
+    "type": "rag",
+    "language": "en",
+    "expected_listing_ids": [],
+    "expected_urls": [],
+    "should_abstain": true
+  },
+  {
+    "query": "ما العائد الاستثماري المضمون لمشروع مريا؟",
+    "type": "rag",
+    "language": "ar",
+    "expected_listing_ids": [],
+    "expected_urls": [],
+    "should_abstain": true
+  },
+  {
+    "query": "Find listing ID 9999999",
+    "type": "listing",
+    "language": "en",
+    "expected_listing_ids": [],
+    "expected_urls": [],
+    "should_abstain": true
+  },
+  {
+    "query": "What is the current weather at DG1?",
+    "type": "rag",
+    "language": "en",
+    "expected_listing_ids": [],
+    "expected_urls": [],
+    "should_abstain": true
+  },
+  {
+    "query": "Does listing 8888888 have a parking space?",
+    "type": "listing",
+    "language": "en",
+    "expected_listing_ids": [],
+    "expected_urls": [],
+    "should_abstain": true
+  },
+  {
+    "query": "كم عدد الزوار اليوم في مشروع آيدا؟",
+    "type": "rag",
+    "language": "ar",
+    "expected_listing_ids": [],
+    "expected_urls": [],
+    "should_abstain": true
+  },
+  {
+    "query": "What is DarGlobal stock price right now?",
+    "type": "rag",
+    "language": "en",
+    "expected_listing_ids": [],
+    "expected_urls": [],
+    "should_abstain": true
+  },
+  {
+    "query": "أريد بيانات عقار رقم 12345678",
+    "type": "listing",
+    "language": "ar",
+    "expected_listing_ids": [],
+    "expected_urls": [],
+    "should_abstain": true
+  },
+  {
+    "query": "Who owns the private residence at this Wasalt address?",
+    "type": "rag",
+    "language": "en",
+    "expected_listing_ids": [],
+    "expected_urls": [],
+    "should_abstain": true
+  },
+  {
+    "query": "Is apartment 5879365 still available right now?",
+    "type": "listing",
+    "language": "en",
+    "expected_listing_ids": [],
+    "expected_urls": [],
+    "should_abstain": true
+  },
+  {
+    "query": "كم سعر العقار 5879365 الآن مباشرة؟",
+    "type": "listing",
+    "language": "ar",
+    "expected_listing_ids": [],
+    "expected_urls": [],
+    "should_abstain": true
+  },
+  {
+    "query": "What is the exact completion date for an unrelated project called Silver Dunes?",
+    "type": "rag",
+    "language": "en",
+    "expected_listing_ids": [],
+    "expected_urls": [],
+    "should_abstain": true
+  },
+  {
+    "query": "ما رقم هاتف مالك العقار 9999999؟",
+    "type": "listing",
+    "language": "ar",
+    "expected_listing_ids": [],
+    "expected_urls": [],
+    "should_abstain": true
+  },
+  {
+    "query": "Can you guarantee this listing will appreciate?",
+    "type": "rag",
+    "language": "en",
+    "expected_listing_ids": [],
+    "expected_urls": [],
+    "should_abstain": true
+  }
+]
